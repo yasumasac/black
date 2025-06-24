@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blackjack Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+  <h1>🂡 ブラックジャック 🂱</h1>
+
+  <!-- ↓ ディーラーの手札を上に表示 -->
+  <div class="hand">
+    <h2>ディーラーの手札</h2>
+    <div id="dealer-cards" class="cards"></div>
+    <p id="dealer-score">スコア: 0</p>
+  </div>
+
+  <!-- ↓ プレイヤーの手札を下に表示 -->
+  <div class="hand">
+    <h2>あなたの手札</h2>
+    <div id="player-cards" class="cards"></div>
+    <p id="player-score">スコア: 0</p>
+  </div>
+
+  <div class="buttons">
+    <button id="hit-btn">Hit</button>
+    <button id="stand-btn">Stand</button>
+    <button id="restart-btn">Continue</button>
+  </div>
+
+  <p id="result" class="result-message"></p>
+</div>
+
+</body>
+</html>
