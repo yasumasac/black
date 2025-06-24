@@ -1,0 +1,60 @@
+body {
+  background: #2c3e50;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.game-container {
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  background: #34495e;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.hand {
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.card {
+  background: white;
+  color: black;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  width: 40px;
+  text-align: center;
+  box-shadow: 2px 2px 4px #000;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1abc9c;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #16a085;
+}
+
+.result-message {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
