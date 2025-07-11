@@ -1,4 +1,5 @@
 # ブラックジャックゲーム（Blackjack Game）
+https://codepen.io/yasumasa-/pen/emNbmbK
 
 ## 作品概要  
 HTML/CSS/JavaScriptを用いてブラウザ上で遊べるシンプルなブラックジャックゲームです。  
