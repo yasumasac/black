@@ -17,7 +17,7 @@ HTML/CSS/JavaScriptを用いてブラウザ上で遊べるシンプルなブラ�
 
 ## 開発環境  
 - OS: Windows 10  
-- エディタ: Visual Studio Code 、CodePen 
+- エディタ: Visual Studio Code 、Code Pen 
 - バージョン管理: Git / GitHub  
 
 ---
